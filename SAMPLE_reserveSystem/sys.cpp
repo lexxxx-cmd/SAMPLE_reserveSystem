@@ -74,6 +74,33 @@ void studenMenu(Identity*& student)
 		
 	}
 }
+void teachermenu(Identity*& teacher)
+{
+	while (true)
+	{
+		teacher->openMenu();
+		Teacher* stu = (Teacher*)teacher;
+		int select = 0;
+		std::cin >> select;
+		switch (select)
+		{
+		case 1:
+			stu->showAllOrder();
+			break;
+		case 2:
+			stu->validOrder();
+			break;
+
+		default:
+			delete teacher;
+			system("pause");
+			system("cls");
+			return;
+			break;
+		}
+
+	}
+}
 void loginIn(std::string filename, int type)
 {
 	Identity* person = NULL;

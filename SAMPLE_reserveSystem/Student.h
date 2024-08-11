@@ -2,6 +2,7 @@
 #include "Identity.h"
 #include "ComputerRoom.h"
 #include <vector>
+#include"OrderFile.h"
 class Student :
     public Identity
 {

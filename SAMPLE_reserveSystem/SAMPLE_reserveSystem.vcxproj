@@ -130,6 +130,7 @@
     <ClCompile Include="ComputerRoom.cpp" />
     <ClCompile Include="Identity.cpp" />
     <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="OrderFile.cpp" />
     <ClCompile Include="Student.cpp" />
     <ClCompile Include="sys.cpp" />
     <ClCompile Include="Teacher.cpp" />
@@ -139,6 +140,7 @@
     <ClInclude Include="globalFile.h" />
     <ClInclude Include="Identity.h" />
     <ClInclude Include="Manager.h" />
+    <ClInclude Include="OrderFile.h" />
     <ClInclude Include="Student.h" />
     <ClInclude Include="Teacher.h" />
   </ItemGroup>
